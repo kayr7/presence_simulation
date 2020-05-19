@@ -1,0 +1,15 @@
+[package]
+name = "presence_simulation"
+version = "0.1.0"
+authors = ["Kay Rottmann <kro@strukt.re>"]
+edition = "2018"
+
+[dependencies]
+influx_db_client = "^0.3.6"
+
+knx_rs = "0.0.4"
+knx_ets_rs = "0.0.4"
+
+serial = "0.4"
+clap = "2.32.0"
+log4rs ="0.8.1"
